@@ -1,0 +1,7 @@
+cat /etc/resolv.conf
+sleep "2"
+clear
+sleep "1"
+reset
+sleep "1"
+bash rezzy
