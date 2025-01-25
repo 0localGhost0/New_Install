@@ -1,0 +1,681 @@
+tabstop=<number>  
+#
+##----## Tab width in characters
+#
+#indent_incr=<number>  
+#
+##----## Indent for HTML rendering
+#
+#pixel_per_char=<number>  
+#
+##----## Number of pixels per character (4.0...32.0)
+#
+#pixel_per_line=<number>  
+#
+##----## Number of pixels per line (4.0...64.0)
+#
+#frame=<bool>  
+#
+##----## Render frames automatically
+#
+#target_self=<bool>  
+#
+##----## Use _self as default target
+#
+#open_tab_blank=<bool>  
+#
+##----## Open link on new tab if target is _blank or _new
+#
+#open_tab_dl_list=<bool>  
+#
+##----## Open download list panel on new tab
+#
+#display_link=<bool>  
+#
+##----## Display link URL automatically
+#
+#display_link_number=<bool>  
+#
+##----## Display link numbers
+#
+#decode_url=<bool>  
+#
+##----## Display decoded URL
+#
+#display_lineinfo=<bool>  
+#
+##----## Display current line number
+#
+#ext_dirlist=<bool>  
+#
+##----## Use external program for directory listing
+#
+#dirlist_cmd=<string>  
+#
+##----## URL of directory listing command
+#
+#use_dictcommand=<bool>  
+#
+##----## Enable dictionary lookup through CGI
+#
+#dictcommand=<string>  
+#
+##----## URL of dictionary lookup command
+#
+#multicol=<bool>  
+#
+##----## Display file names in multi-column format
+#
+#alt_entity=<bool>  
+#
+##----## Use ASCII equivalents to display entities
+#
+#graphic_char=<number>  
+#
+##----## Character type for border of table and menu
+#
+#display_borders=<bool>  
+#
+##----## Display table borders, ignore value of BORDER
+#
+#disable_center=<bool>  
+#
+##----## Disable center alignment
+#
+#fold_textarea=<bool>  
+#
+##----## Fold lines in TEXTAREA
+#
+#display_ins_del=<number>  
+#
+##----## Display INS, DEL, S and STRIKE element
+#
+#ignore_null_img_alt=<bool>  
+#
+##----## Display link name for images lacking ALT
+#
+#view_unseenobject=<bool>  
+#
+##----## Display unseen objects (e.g. bgimage tag)
+#
+#display_image=<bool>  
+#
+##----## Display inline images
+#
+#pseudo_inlines=<bool>  
+#
+##----## Display pseudo-ALTs for inline images with no ALT or TITLE string
+#
+#auto_image=<bool>  
+#
+##----## Load inline images automatically
+#
+#max_load_image=<number>  
+#
+##----## Maximum processes for parallel image loading
+#
+#ext_image_viewer=<bool>  
+#
+##----## Use external image viewer
+#
+#image_scale=<percent>  
+#
+##----## Scale of image (%)
+#
+#inline_img_protocol=<number>  
+#
+##----## Inline image display method
+#
+#imgdisplay=<string>  
+#
+##----## External command to display image
+#
+#image_map_list=<bool>  
+#
+##----## Use link list of image map
+#
+#fold_line=<bool>  
+#
+##----## Fold lines of plain text file
+#
+#show_lnum=<bool>  
+#
+##----## Show line numbers
+#
+#show_srch_str=<bool>  
+#
+##----## Show search string
+#
+#label_topline=<bool>  
+#
+##----## Move cursor to top line when going to label
+#
+#nextpage_topline=<bool>  
+#
+##----## Move cursor to top line when moving to next page
+#
+#
+#
+#color=<bool>  
+#
+##----## Display with color
+#
+#high-intensity=<bool>  
+#
+##----## Use high-intensity colors
+#
+#basic_color=<color>  
+#
+##----## Color of normal character
+#
+#anchor_color=<color>  
+#
+##----## Color of anchor
+#
+#image_color=<color>  
+#
+##----## Color of image link
+#
+#form_color=<color>  
+#
+##----## Color of form
+#
+#mark_color=<color>  
+#
+##----## Color of mark
+#
+#bg_color=<color>  
+#
+##----## Color of background
+#
+#active_style=<bool>  
+#
+##----## Enable coloring of active link
+#
+#active_color=<color>  
+#
+##----## Color of currently active link
+#
+#visited_anchor=<bool>  
+#
+##----## Use visited link color
+#
+#visited_color=<color>  
+#
+##----## Color of visited link
+#
+#
+#
+#pagerline=<number>  
+#
+##----## Number of remembered lines when used as a pager
+#
+#use_history=<bool>  
+#
+##----## Use URL history
+#
+#history=<number>  
+#
+##----## Number of remembered URL
+#
+#save_hist=<bool>  
+#
+##----## Save URL history
+#
+#confirm_qq=<bool>  
+#
+##----## Confirm when quitting with q
+#
+#close_tab_back=<bool>  
+#
+##----## Close tab if buffer is last when back
+#
+#mark=<bool>  
+#
+##----## Enable mark operations
+#
+#emacs_like_lineedit=<bool>  
+#
+##----## Enable Emacs-style line editing
+#
+#space_autocomplete=<bool>  
+#
+##----## Space key triggers file completion while editing URLs
+#
+#vi_prec_num=<bool>  
+#
+##----## Enable vi-like numeric prefix
+#
+#mark_all_pages=<bool>  
+#
+##----## Treat URL-like strings as links in all pages
+#
+#wrap_search=<bool>  
+#
+##----## Wrap search
+#
+#ignorecase_search=<bool>  
+#
+##----## Search case-insensitively
+#
+#use_mouse=<bool>  
+#
+##----## Enable mouse
+#
+#reverse_mouse=<bool>  
+#
+##----## Scroll in reverse direction of mouse drag
+#
+#relative_wheel_scroll=<number>  
+#
+#
+##----## Behavior of wheel scroll speed
+#
+#relative_wheel_scroll_ratio=<number> (A only)Scroll by # (%) of screen
+#
+#fixed_wheel_scroll_count=<number> (B only)Scroll by # lines
+#
+#clear_buffer=<bool>  
+#
+#
+##----## Free memory of undisplayed buffers
+#
+#decode_cte=<bool>  
+#
+##----## Decode Content-Transfer-Encoding when saving
+#
+#auto_uncompress=<bool>  
+#
+##----## Uncompress compressed data automatically when downloading
+#
+#preserve_timestamp=<bool>  
+#
+##----## Preserve timestamp when saving
+#
+#keymap_file=<string>  
+#
+##----## keymap file
+#
+#
+#
+#
+#document_root=<string>  
+#
+#
+##----## Directory corresponding to / (document root)
+#
+#personal_document_root=<string>  
+#
+#
+##----##Directory corresponding to /~user
+#
+#cgi_bin=<string>  
+#
+##----## Directory corresponding to /cgi-bin
+#
+#index_file=<string>  
+#
+##----## Index file for directories
+#
+#tmp_dir=<string>  
+#
+##----## Directory for temporary files
+#
+#
+#
+#mime_types=<string>  
+#
+##----## List of mime.types files
+#
+#mailcap=<string>  
+#
+##----## List of mailcap files
+#
+#urimethodmap=<string>  
+#
+##----## List of urimethodmap files
+#
+#editor=<string>  
+#
+#
+##----## Editor
+#
+#mailto_options=<number>  
+#
+#
+##----## How to call Mailer for mailto URLs with options
+#
+#mailer=<string>  
+#
+##----## Mailer
+#
+#extbrowser=<string>  
+#
+##----## External browser
+#
+#extbrowser2=<string>  
+#
+##----## 2nd external browser
+#
+#extbrowser3=<string>  
+#
+##----## 3rd external browser
+#
+#extbrowser4=<string>  
+#
+##----## 4th external browser
+#
+#extbrowser5=<string>  
+#
+##----## 5th external browser
+#
+#extbrowser6=<string>  
+#
+##----## 6th external browser
+#
+#extbrowser7=<string>  
+#
+##----## 7th external browser
+#
+#extbrowser8=<string>  
+#
+##----## 8th external browser
+#
+#extbrowser9=<string>  
+#
+##----## 9th external browser
+#
+#bgextviewer=<bool>  
+#
+##----## Run external viewer in the background
+#
+#use_lessopen=<bool>  
+#
+##----## Use LESSOPEN
+#
+#
+#
+#passwd_file=<string>  
+#
+##----## Password file
+#
+#disable_secret_security_check=<bool>
+#
+##----## Disable secret file security check
+#
+#ftppasswd=<string>  
+#
+##----## Password for anonymous FTP (your mail address)
+#
+#ftppass_hostnamegen=<bool>  
+#
+##----## Generate domain part of password for FTP
+#
+#pre_form_file=<string>  
+#
+##----## File for setting form on loading
+#
+#siteconf_file=<string>  
+#
+##----## File for preferences for each site
+#
+#user_agent=<string>  
+#
+##----## User-Agent identification string
+#
+#no_referer=<bool>  
+#
+##----## Suppress `Referer:' header
+#
+#cross_origin_referer=<bool>  
+#
+##----## Exclude pathname and query string from `Referer:' header when cross domain communication
+#
+#accept_language=<string>  
+#
+##----## Accept-Language header
+#
+#accept_encoding=<string>  
+#
+##----## Accept-Encoding header
+#
+#accept_media=<string>  
+#
+##----## Accept header
+#
+#argv_is_url=<bool>  
+#
+##----## Treat argument without scheme as URL
+#
+#retry_http=<bool>  
+#
+##----## Prepend http:// to URL automatically
+#
+#default_url=<number>  
+#
+##----## Default value for open-URL command
+#
+#follow_redirection=<number>  
+#
+##----## Number of redirections to follow
+#
+#meta_refresh=<bool>  
+#
+##----## Enable processing of meta-refresh tag
+#
+#localhost_only=<bool>  
+#
+##----## Restrict connections only to localhost
+#
+#dns_order=<number>  
+#
+##----## Order of name resolution
+#
+#nntpserver=<string>  
+#
+##----## News server
+#
+#nntpmode=<string>  
+#
+##----## Mode of news server
+#
+#max_news=<number>  
+#
+##----## Number of news messages
+#
+#
+#  section[6]: Proxy Settings
+#
+#use_proxy=<bool>  
+#
+##----## Use proxy
+#
+#http_proxy=<string>  
+#
+##----## URL of HTTP proxy host
+#
+#https_proxy=<string>  
+#
+##----## URL of HTTPS proxy host
+#
+#gopher_proxy=<string>  
+#
+##----## URL of GOPHER proxy host
+#
+#ftp_proxy=<string>  
+#
+##----## URL of FTP proxy host
+#
+#no_proxy=<string>  
+#
+##----## Domains to be accessed directly (no proxy)
+#
+#noproxy_netaddr=<bool>  
+#
+##----## Check noproxy by network address
+#
+#no_cache=<bool>  
+#
+##----## Disable cache
+#  section[7]: SSL Settings
+#
+#ssl_forbid_method=<string>  
+#
+##----## List of forbidden SSL methods (2: SSLv2, 3: SSLv3, t: TLSv1.0, 5: TLSv1.1, 6: TLSv1.2, 7: TLSv1.3)
+#
+#ssl_min_version=<string>  
+#
+##----## Minimum SSL version (all, TLSv1.0, TLSv1.1, TLSv1.2, or TLSv1.3)
+#
+#ssl_cipher=<string>  
+#
+##----## SSL ciphers for TLSv1.2 and below (e.g. DEFAULT:@SECLEVEL=2)
+#
+#ssl_verify_server=<bool>  
+#
+##----## Perform SSL server verification
+#
+#ssl_cert_file=<path>  
+#
+##----## PEM encoded certificate file of client
+#
+#ssl_key_file=<path>  
+#
+##----## PEM encoded private key file of client
+#
+#ssl_ca_path=<path>  
+#
+##----## Path to directory for PEM encoded certificates of CAs
+#
+#ssl_ca_file=<path>  
+#
+##----## File consisting of PEM encoded certificates of CAs
+#
+#ssl_ca_default=<bool>  
+#
+##----## Use default locations for PEM encoded certificates of CAs
+# 
+# 
+#  section[8]: Cookie Settings
+#
+#use_cookie=<bool>  
+#
+##----## Enable cookie processing
+#
+#show_cookie=<bool>  
+#
+##----## Print a message when receiving a cookie
+#
+#accept_cookie=<bool>  
+#
+##----## Accept cookies
+#
+#accept_bad_cookie=<number>  
+#
+##----## Action to be taken on invalid cookie
+#
+#cookie_reject_domains=<string>  
+#
+##----## Domains to reject cookies from
+#
+#cookie_accept_domains=<string>  
+#
+##----## Domains to accept cookies from
+#
+#cookie_avoid_wrong_number_of_dots=<string> Domains to avoid [wrong number of dots]
+# 
+# 
+#  section[9]: Charset Settings
+#
+#display_charset=<charset>  
+#
+##----## Display charset
+#
+#document_charset=<charset>  
+#
+##----## Default document charset
+#
+#auto_detect=<number>  
+#
+##----## Automatic charset detection when loading
+#
+#system_charset=<charset>  
+#
+##----## System charset
+#
+#follow_locale=<bool>  
+#
+##----## System charset follows locale(LC_CTYPE)
+#
+#ext_halfdump=<bool>  
+#
+##----## Output halfdump with display charset
+#
+#use_wide=<bool>  
+#
+##----## Use multi-column characters
+#
+#use_combining=<bool>  
+#
+##----## Use combining characters
+#
+#east_asian_width=<bool>  
+#
+##----## Use double width for some Unicode characters
+#
+#use_language_tag=<bool>  
+#
+##----## Use Unicode language tags
+#
+#ucs_conv=<bool>  
+#
+##----## Charset conversion using Unicode map
+#
+#pre_conv=<bool>  
+#
+##----## Charset conversion when loading
+#
+#search_conv=<bool>  
+#
+##----## Adjust search string for document charset
+#
+#fix_width_conv=<bool>  
+#
+##----## Fix character width when converting
+#
+#use_gb12345_map=<bool>  
+#
+##----## Use GB 12345 Unicode map instead of GB 2312's
+#
+#use_jisx0201=<bool>  
+#
+##----## Use JIS X 0201 Roman for ISO-2022-JP
+#
+#use_jisc6226=<bool>  
+#
+##----## Use JIS C 6226:1978 for ISO-2022-JP
+#
+#use_jisx0201k=<bool>  
+#
+##----## Use JIS X 0201 Katakana
+#
+#use_jisx0212=<bool>  
+#
+##----## Use JIS X 0212:1990 (Supplemental Kanji)
+#
+#use_jisx0213=<bool>  
+#
+##----## Use JIS X 0213:2000 (2000JIS)
+#
+#strict_iso2022=<bool>  
+#
+##----## Strict ISO-2022-JP/KR/CN
+#
+#gb18030_as_ucs=<bool>  
+#
+##----## Treat 4 bytes char. of GB18030 as Unicode
+#
+#simple_preserve_space=<bool>  
+#
+##----## Simple Preserve space
+#
